@@ -7,3 +7,62 @@
 html {
     font-size: 62, 5%;
 }
+
+body {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Arimo", sans-serif;
+    margin: 5rem 2rem;
+}
+
+.title {
+    margin-bottom: 1rem;
+    letter-spacing: 1.5px;
+    text-shadow: 3px 3px 4px #fff;
+} 
+
+.txt {
+    width: 80%;
+    margin: 0 auto 2rem;
+} 
+
+.buttons {
+    display: flex; 
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.btn {
+    padding: 1rem;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: white; 
+    font-weight: bolder; 
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.blue-btn {
+    background-color: midnightblue;
+}
+
+.purple-btn {
+    background-color: mediumpurple;
+}
+
+.green-btn {
+    background-color: limegreen;
+}
