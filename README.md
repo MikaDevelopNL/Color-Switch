@@ -35,7 +35,7 @@ Ik maak regelmatig kleine projecten om deze vaardigheden steeds beter zelfstandi
 
 ## 🚀 Live Demo
 
-[Bekijk de Color Switcher](VOEG-HIER-JE-GITHUB-PAGES-LINK-TOE)
+https://mikadevelopnl.github.io/Color-Switch/
 
 ## 📌 Status
 
