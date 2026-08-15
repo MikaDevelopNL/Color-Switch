@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 62, 5%;
+    font-size: 62.5%;
 }
 
 body {
@@ -22,14 +22,16 @@ body {
 }
 
 .title {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     letter-spacing: 1.5px;
-    text-shadow: 3px 3px 4px #fff;
+    text-shadow: 3px 3px 4px #000;
+    font-size: 3rem;
 } 
 
 .txt {
     width: 80%;
-    margin: 0 auto 2rem;
+    margin: 0 auto 2rem; 
+    font-size: 1.4rem;
 } 
 
 .buttons {
@@ -48,7 +50,7 @@ body {
     color: white; 
     font-weight: bolder; 
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
     display: flex;
     justify-content: center; 
@@ -65,4 +67,33 @@ body {
 
 .green-btn {
     background-color: limegreen;
+}
+
+.btn-txt {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center; 
+    text-decoration: underline;
+}
+
+/*Hier mee verander ik de achtergrondkleur van de website*/
+
+body.blue {
+   background-color: midnightblue; 
+}
+
+body.purple {
+    background-color: mediumpurple;
+}
+
+body.green {
+    background-color: limegreen;
+}
+
+/*geselecteerde button*/
+.btn.selected {
+    border: 5px solid black;
+    color: black;
+    background-color: white;
 }
